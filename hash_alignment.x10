@@ -20,7 +20,7 @@ import x10.util.ArrayBuilder;
 @NativeCPPInclude("gzRead.h")
 @NativeCPPCompilationUnit("gzRead.cc")
 
-public class hash_match {
+public class hash_alignment {
 	
 	@Native("c++","gzRead(#1->c_str())")
 	static native def gzRead(file:String):String;
